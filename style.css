@@ -14,7 +14,7 @@ section h3{
     background-color: rgb(77, 214, 104);
 }
 
-.col-6.row{
+[class^="col-"].row{
     padding: 10px;
 }
 
@@ -25,4 +25,20 @@ section{
 
 .blocco_sez [class^="col"]{
     height: 40px;
+}
+
+[class^="col"].big-block{
+    height: 80px;
+}
+
+.top{
+    align-items: flex-start;
+}
+
+.middle{
+    align-items: center;
+}
+
+.bottom{
+    align-items: flex-end;
 }
