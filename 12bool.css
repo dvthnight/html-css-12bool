@@ -10,9 +10,13 @@
 }
 
 
-.row [class*="col-"]{
+.row {
     display: flex;
     flex-wrap: wrap;
+}
+
+[class*="col-"]{
+    flex: 0 0 auto;
 }
 
 .col-1{
