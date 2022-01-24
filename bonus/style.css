@@ -1,7 +1,11 @@
-.debug [class*="col"]{
-    /* padding: 20px; */
+/* .debug [class*="col"]{
+    padding: 20px;
     background-color: aquamarine;
     border: 1px solid black;
+} */
+
+body{
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .container{
@@ -10,7 +14,26 @@
 }
 
 [class*="col-"]{
-    height: 80px;
-    line-height: 80px;
+    height: 70px;
+    line-height: 70px;
     vertical-align: middle;
+    border: 1px solid black;
+
+}
+
+.coordinate{
+    background-color: whitesmoke;
+}
+
+.campo-battaglia{
+    background-color: rgb(110, 152, 190);
+}
+
+.nave{
+    background-color: rgb(142, 142, 142);
+}
+
+.titolo{
+    padding: 30px;
+    /* margin-bottom: 10px; */
 }

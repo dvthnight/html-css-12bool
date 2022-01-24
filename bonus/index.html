@@ -4,204 +4,208 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="12bool.css">
     <title>Battleship Game</title>
 </head>
 <body class="debug">
     <div class="container">
-        <h2>Battleship Game</h2>
+        <h1 class="titolo">Battleship Game</h1>
 
         <!-- riga 1 -->
         <div class="row">
-            <div class="col-1"></div>
-            <div class="col-1">A</div>
-            <div class="col-1">B</div>
-            <div class="col-1">C</div>
-            <div class="col-1">D</div>
-            <div class="col-1">E</div>
-            <div class="col-1">F</div>
-            <div class="col-1">G</div>
-            <div class="col-1">H</div>
-            <div class="col-1">I</div>
-            <div class="col-1">L</div>
-            <div class="col-1">M</div>
+            <div class="col-1 coordinate"></div>
+            <div class="col-1 coordinate">A</div>
+            <div class="col-1 coordinate">B</div>
+            <div class="col-1 coordinate">C</div>
+            <div class="col-1 coordinate">D</div>
+            <div class="col-1 coordinate">E</div>
+            <div class="col-1 coordinate">F</div>
+            <div class="col-1 coordinate">G</div>
+            <div class="col-1 coordinate">H</div>
+            <div class="col-1 coordinate">I</div>
+            <div class="col-1 coordinate">L</div>
+            <div class="col-1 coordinate">M</div>
         </div>
 
         <!-- riga 2 -->
         <div class="row">
-            <div class="col-1">1</div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
+            <div class="col-1 coordinate">1</div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia nave"></div>
         </div>
 
         <!-- riga 3 -->
         <div class="row">
-            <div class="col-1">2</div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
+            <div class="col-1 coordinate">2</div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
         </div>
 
         <!-- riga 4 -->
         <div class="row">
-            <div class="col-1">3</div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
+            <div class="col-1 coordinate">3</div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia nave"></div>
         </div>
 
         <!-- riga 5 -->
         <div class="row">
-            <div class="col-1">4</div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
+            <div class="col-1 coordinate">4</div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia sparato"><i class="fas fa-crosshairs"></i></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia nave"></div>
         </div>
 
         <!-- riga 6 -->
         <div class="row">
-            <div class="col-1">5</div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
+            <div class="col-1 coordinate">5</div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia sparato"><i class="fas fa-crosshairs"></i></div>
+            <div class="col-1 campo-battaglia sparato"><i class="fas fa-crosshairs"></i></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
         </div>
 
         <!-- riga 7 -->
         <div class="row">
-            <div class="col-1">6</div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
+            <div class="col-1 coordinate">6</div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia sparato"><i class="fas fa-crosshairs"></i></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia nave"></div>
         </div>
 
         <!-- riga 8 -->
         <div class="row">
-            <div class="col-1">7</div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
+            <div class="col-1 coordinate">7</div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia sparato"><i class="fas fa-crosshairs"></i></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia nave"></div>
         </div>
 
         <!-- riga 9 -->
         <div class="row">
-            <div class="col-1">8</div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
+            <div class="col-1 coordinate">8</div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia sparato"><i class="fas fa-crosshairs"></i></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia sparato"><i class="fas fa-crosshairs"></i></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia nave"></div>
         </div>
 
         <!-- riga 10 -->
         <div class="row">
-            <div class="col-1">9</div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
+            <div class="col-1 coordinate">9</div>
+            <div class="col-1 campo-battaglia nave affondato"><i class="fas fa-skull-crossbones"></i></div>
+            <div class="col-1 campo-battaglia nave affondato"><i class="fas fa-skull-crossbones"></i></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
         </div>
 
         <!-- riga 11 -->
         <div class="row">
-            <div class="col-1">10</div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
+            <div class="col-1 coordinate">10</div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
         </div>
 
         <!-- riga 12 -->
         <div class="row">
-            <div class="col-1">11</div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
-            <div class="col-1"></div>
+            <div class="col-1 coordinate">11</div>
+            <div class="col-1 campo-battaglia sparato"><i class="fas fa-crosshairs"></i></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia"></div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia nave"></div>
+            <div class="col-1 campo-battaglia nave"></div>
         </div>
     </div>
 
