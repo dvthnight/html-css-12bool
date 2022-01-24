@@ -14,10 +14,11 @@ body{
 }
 
 [class*="col-"]{
-    height: 70px;
-    line-height: 70px;
+    height: 60px;
+    line-height: 60px;
     vertical-align: middle;
     border: 1px solid black;
+    font-size: 20px;
 
 }
 
@@ -34,6 +35,21 @@ body{
 }
 
 .titolo{
-    padding: 30px;
+    padding: 40px;
     /* margin-bottom: 10px; */
+    font-size: 40px;
+}
+
+
+.sparato{
+    color: rgb(155, 30, 18);
+    font-size: 25px;
+}
+
+.affondato{
+    font-size: 25px;
+}
+
+.mirino-rosso{
+    color: rgb(196, 19, 3);
 }
