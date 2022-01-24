@@ -1,0 +1,16 @@
+.debug [class*="col"]{
+    /* padding: 20px; */
+    background-color: aquamarine;
+    border: 1px solid black;
+}
+
+.container{
+    text-align: center;
+    
+}
+
+[class*="col-"]{
+    height: 80px;
+    line-height: 80px;
+    vertical-align: middle;
+}
